@@ -1,0 +1,171 @@
+body {
+    background-color: greenyellow;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-style: italic;
+    font-family: Helvetica, Futura, Arial, Verdana, sans-serif;
+    color: forestgreen;
+}
+
+#header {
+    background-image: url("../images/design3_image1.jpg");
+    height: 200px;
+    background-size: cover;
+    position: relative;
+}
+
+#logo {
+    width: 150px;
+    position: absolute;
+    top: 230px;
+    left: 30px;
+}
+
+#title-first {
+    margin: 0px 0px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+h2 {
+    position: relative;
+    top: 5px;
+    height: 40px;
+    color: limegreen;
+}
+
+nav {
+    display: inline;
+    position: absolute;
+    top: 15px;
+    right: 100px;
+    margin-bottom: 10px;
+}
+
+.active {
+
+    background-color: goldenrod;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    background-color: forestgreen;
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    border: 4px dotted white;
+    display: inline;
+}
+
+section {
+    display: inline-block;
+    position: absolute;
+    top: 330px;
+    left: 200px;
+    width: 1000px;
+}
+
+.encabezado {
+    font-weight: bold;
+    color: black;
+    font-style: normal;
+}
+
+table {
+    border-spacing: 100px 0px;
+    margin-bottom: 20px;
+}
+
+#tabla-secundaria {
+    margin-left: 20px;
+}
+
+th {
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+td {
+    border-spacing: 100px 0px;
+}
+
+.fecha {
+    text-align: center;
+    vertical-align: top;
+}
+
+#tercer-title {
+    text-decoration-line: none;
+}
+
+h3 {
+    font-style: italic;
+}
+
+#h3normal {
+    font-style: normal;
+}
+
+li {
+    text-align: justify;
+    text-justify: auto;
+}
+
+.list-square > li {
+    list-style-type: square;
+}
+
+.list-letter-smalll > li {
+    list-style-type: lower-alpha;
+}
+
+.list-number li {
+    list-style-type: decimal;
+}
+
+.list-circle li {
+    list-style-type: circle;
+}
+
+.center {
+    text-align: center;
+}
+
+p {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+    text-justify: auto;
+}
+
+.contacto {
+    display: inline-block;
+}
+
+#mail {
+    display: inline-block;
+    text-align: left;
+    margin-left: 450px;
+}
+
+div {
+    margin: 20px;
+}
+#formulario{
+    width: 800px;
+    margin-left: 100px;
+    background-color: darkgoldenrod;
+    color:black;
+}
+#enviar{
+    margin-left: 730px;    
+}
+iframe{
+    width: 70%;
+    height: 50%;
+}
